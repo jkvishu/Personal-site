@@ -1,0 +1,215 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+h2{
+  font-weight: normal;
+}
+/*remember class selector such as .hr1 or top-container were declared inside the html tags and are used in css file by a dot operator
+while if we want to make changes in all of the tags present in html file directly than we dont require dot operator*/
+.hr1{
+  border-color: #EAF6F6; /* by default height is 0px and we cannot use align tag in external CSS*/
+  width: 5%; /*width of the horizontal line is set to be 5% of the total width of the webpage*/
+  border-style: dotted none none;/*dotted from top to bottom but none from left to right this is the design we have created*/
+  border-width: 5px;/*kinta chooda ha hmara ek dot horizontal line me*/
+  margin: 50px auto;/*50px margin diya ha top and bottom me and left and right auto rakha ha use middle me lane ke liye*/
+}
+.first-h1{
+  margin:0 auto; /*margin auto kya kyu ki block html elements ko center me align krne ke liye unka left and right margin equal krna pdta ha*/
+  position: relative;/*yaha relative ki jagha staic bhi use kr skte the zasi hmari requirement thi but agar hmm future me chate ha isko move krana orignal pos se to hmne realtive rakha ha*/
+  top:0;/*top ko zero rakhne ka mtlb staic wala scene hi ha pr agar isko thoda move krana ha niche ki taraf to top ki value increase kr skte ha*/
+  width: 70%;/*mtlb ki hmne 30% width size ka box declare krdia use zada agar input hua to next line se hoga suru
+  yaha width ko percentage me dena zaruri isliye ha kyu ki hm ise dynamic banana chate ha
+  or width hmare box ke size ko darshati ha ki wo kitna chooda hoga and usme hm utna width ka hi content dal skte ha agar usee zada dala to next line se suru hoga.*/
+  font-family: 'Sacramento',sans-serif;/*yaha hmne apne text ko font diya ha zisme primary font pehle wala ha and agar wo render nhi hua to dusre wala render hoga gurantee ke sath*/
+  font-size: 5em;/*yaha hmne apne font ka size declare kra ha and em uski ek unit ha and 1em=16px*/
+  color: #019267;/*yaha hmne apne text ko color diya ha*/
+}
+.first-h2{
+  margin:5px 0 0 0;/*yaha hmne margin ki sari side batai ha upper wali side 5px li ha kyu ki hm chate ha ki hmari ye wali heading upper wali heading se 5 margin niche rahe*/
+  color: #6EBF8B;/*yaha is wali heading ke liye color diya ha*/
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;/*yaha rem mtlb relative to previous taken font size*/
+}
+.first-h4{
+  color: #11999E;/*colour set for our heading*/
+  clear:left;/*This property is just opposite of floating property We can use this property to make sure that the text does not wrap and end up at the bottom or below the image hence what ever our text was it will come to bottom the image
+  note thoda practice kro is property ka*/
+  margin-bottom: 0;
+  margin-left: 40px;
+  line-height: 2;/*here we are changing the space between the lines of the same box by using line-height property which gives a depiction that the height of our box is increasing but actaully it depends on our content by default*/
+}
+.second-h4{
+  color: #11999E;
+  clear:right;
+  margin:0 60px 10px 0;
+}
+.third-h4{
+  color: #11999E;
+}
+
+/* Top Container Design */
+.bottom-cloud{
+  position: relative; /*It is better to use realtive because it is related to its orignal pos and when the size of our website increases or decreases it moves according to it and gives a feel that its dynamic in nature.*/
+  /* remember here we are changing the pos which actually does not affect the adajacent elements directly by physical contact although it can be possible that their pos change due to the displacement of current element */
+  top:50px;/*yaha pe top hmare cloud ko uski static i.e orignal pos zo hoti usee 200px niche le ayga*/
+  right:150px;/*similarly 180pixel hmare cloud ko uski orignal pos zo ki center thi use left le zayga*/
+}
+.lower-cloud{
+  /*position:absolute; absolute makes the cloud child of the body(parent) because body is the highest parent priority html element in that block and now it is free to move anywhere in the webapage
+  top:290px;
+  left:460px; hence we are updating it with relative as we have learned the concept of positioning of css*/
+  position: relative;
+  left: 150px;
+  top: 100px;
+}
+.mountain{
+  /* updating the moutain after we have updated the lower cloud as we want it be in center therefore we added right :55px.*/
+  position: relative;
+  top:3px;
+}
+.p-of-middle{
+  line-height:2;
+  width:50%;
+  margin:0 auto;
+}
+
+/*Container Section  */
+
+.top-container{
+  background-color: #B4ECE3; /*zo container hmne bnaya ha uska background color change kra ha*/
+  margin: 0;/*uski 4 side hmne margin 0 krida ha zise extra space zo consume kr rha tha wo remove ho gya*/
+  padding-top: 60px;/*upper se hmee kuch space dena tha zise zitna bhi content hmare container ke andar ha kuch had tk niche kishak zaye */
+}
+.middle-container{
+  width: 60%; /*we can set the width of our containers according to our need here we have set it to 60% of the total width of the webpage*/
+  margin: 50px auto 50px auto;/*to make the container exact in the middle we have used margin auto in left and right and 50 in top and bottom to make it seprate from others containers*/
+  text-align: left;/*all the text that we are going to insert in this container will align towards left*/
+  height: 400px;/*we have given a fixed value for the height of our container which is mandatory here because if we will use percentage than it will cover whole page*/
+}
+.middle2-container{
+    width: 60%;
+    margin: 50px auto 0 auto;
+    text-align: left;
+    height:150px;
+}
+.last{
+  background-color: #66BFBF;
+  margin: 0;
+  padding: 25px;/*remember that the color of padding is same as of the div background color
+  and it change the pos of other element also*/
+}
+/*
+.bottom-container{
+  width: 100%;
+  height: 100px;
+
+}*/
+
+/* Image and anchor tag section */
+.set-image{
+  height:250px;/*giving same height and width value makes the image in same shape from all side*/
+  width:250px;
+  border-radius:100%; /*giving border radius as 100% makes the image circular*/
+  margin-top: 100px;/*given margin 100px from top because we want the image to some about lower the mountain*/
+}
+.anchor{
+  color: #11999E;/*color of our hyper link that we have created in our html file*/
+  margin:10px 20px;
+  font-family: 'Montserrat', sans-serif;/*font can also be decided in hyper link*/
+  text-decoration: none;
+}
+.anchor:hover{ /*anchor class selector ka hi ek or beta; when someone take his cursor or pointer to our hyper link than how it should react is decided by this*/
+  color:white;/*we have choosen the hover color as white*/
+}
+.image2{
+  width:25%; /*we want out image to be 25%width of its orignal size*/
+  float:left;/*we use floating property when we have some text with us and we want it to be wraped around our image here we are wrapping it around left side */
+  margin-right: 30px;/*i dont find any use of this margin to be 30px on my webpage*/
+}
+.image3{
+  width:25%;/*we want out image to be 25%width of its orignal size*/
+  float:right;/*we use floating property when we have some text with us and we want it to be wraped around our image here we are wrapping it around right side*/
+  margin-left: 30px;/*no use*/
+  height:200px;/*modified our image height from orignal height*/
+}
+
+/* From cssbuttons.io by @meermubashar
+copied the css code from the Website and pasted here to make a wonderfull button*/
+button:focus{
+ width: 140px;
+ height: 45px;
+ font-size: 23px;
+ cursor: pointer;
+ border: none;
+ outline: none;
+ background: transparent;
+ color: white;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 700;
+ position: relative;
+ transition: all 0.5s;
+ z-index: 1;
+}
+
+button::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 5px;
+ height: 100%;
+ background-color: white;
+ z-index: -1;
+ transition: all 0.5s;
+}
+
+button:hover::before {
+ width: 100%;
+}
+
+button:hover {
+ color: black;
+}
+
+button:active:before {
+ background: #b9b9b9;
+}
+
+/* Media Query Section*/
+
+/* These media Querry i Used after bootstrap module therefore now i have implemented here to solve mountain and cloud problem but this problem can esaily be solved by using bootstrap
+but we want our this website to be 100% made from CSS and HTMl */
+@media (max-width:800px)
+{
+  .bottom-cloud{
+    width:121px;
+    height:38px;
+  }
+  .lower-cloud{
+    width:119px;
+    height:38px;
+  }
+  .p-of-middle{
+    margin:0 0 0 0;
+    width:100%;
+  }
+  /* .mountain{
+    width:400px;
+    height:250px
+  } */
+}
+@media(max-width:545px)
+{
+  .bottom-cloud{
+    right:70px;
+  }
+  .lower-cloud{
+    left:70px;
+    top:60px;
+  }
+  .mountain{
+    width:100%;
+  }
+}
+/* @meidia(max-width:) */
