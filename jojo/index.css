@@ -1,0 +1,73 @@
+body{
+  background-color: #840B2A;
+  background-image: -webkit-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.15) 30%, rgba(255, 255, 255, 0.3) 32%, rgba(255, 255, 255, 0) 33%), -webkit-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.3) 13%, rgba(255, 255, 255, 0) 14%), -webkit-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.2) 17%, rgba(255, 255, 255, 0.43) 19%, rgba(255, 255, 255, 0) 20%), -webkit-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%), -webkit-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%), -webkit-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.2) 13%, rgba(255, 255, 255, 0) 14%), -webkit-linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0B1284 50%, #760EA1 60%, #83096E 70%, #840B2A 80%, #B13E12 90%, #E27412 100%);
+  background-image: -moz-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.15) 30%, rgba(255, 255, 255, 0.3) 32%, rgba(255, 255, 255, 0) 33%), -moz-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.3) 13%, rgba(255, 255, 255, 0) 14%), -moz-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.2) 17%, rgba(255, 255, 255, 0.43) 19%, rgba(255, 255, 255, 0) 20%), -moz-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%), -moz-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%), -moz-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.2) 13%, rgba(255, 255, 255, 0) 14%), -moz-linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0B1284 50%, #760EA1 60%, #83096E 70%, #840B2A 80%, #B13E12 90%, #E27412 100%);
+  background-image: -ms-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.15) 30%, rgba(255, 255, 255, 0.3) 32%, rgba(255, 255, 255, 0) 33%), -ms-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.3) 13%, rgba(255, 255, 255, 0) 14%), -ms-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.2) 17%, rgba(255, 255, 255, 0.43) 19%, rgba(255, 255, 255, 0) 20%), -ms-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%), -ms-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%), -ms-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.2) 13%, rgba(255, 255, 255, 0) 14%), -ms-linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0B1284 50%, #760EA1 60%, #83096E 70%, #840B2A 80%, #B13E12 90%, #E27412 100%);
+  background-image: -o-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.15) 30%, rgba(255, 255, 255, 0.3) 32%, rgba(255, 255, 255, 0) 33%), -o-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.3) 13%, rgba(255, 255, 255, 0) 14%), -o-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.2) 17%, rgba(255, 255, 255, 0.43) 19%, rgba(255, 255, 255, 0) 20%), -o-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%), -o-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%), -o-radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.2) 13%, rgba(255, 255, 255, 0) 14%), -o-linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0B1284 50%, #760EA1 60%, #83096E 70%, #840B2A 80%, #B13E12 90%, #E27412 100%);
+  background-image: radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.15) 30%, rgba(255, 255, 255, 0.3) 32%, rgba(255, 255, 255, 0) 33%), radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.3) 13%, rgba(255, 255, 255, 0) 14%), radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.2) 17%, rgba(255, 255, 255, 0.43) 19%, rgba(255, 255, 255, 0) 20%), radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%), radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.2) 11%, rgba(255, 255, 255, 0.4) 13%, rgba(255, 255, 255, 0) 14%), radial-gradient(rgba(255, 255, 255, 0) 0px, rgba(255, 255, 255, 0.1) 11%, rgba(255, 255, 255, 0.2) 13%, rgba(255, 255, 255, 0) 14%), linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0B1284 50%, #760EA1 60%, #83096E 70%, #840B2A 80%, #B13E12 90%, #E27412 100%);
+  background-position: 0 0px, 0 0px, 0 110px, -130px -170px, 130px 370px, 0 0px, 0 0;
+  background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 100% 100%;
+}
+.protest-revolution-regular {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.rubik-glitch pop-regular {
+  font-family: "Rubik Glitch Pop", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  /* Optional background color */
+  flex-direction: column;
+  /* Align items vertically */
+}
+
+.image-container {
+  position: relative;
+  margin-top: 100px;
+  /* Adjust this value to set the distance from the top */
+  width: 300px;
+  /* Set the size of the image container */
+  height: 300px;
+  /* Set the size of the image container */
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), inset 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.caption {
+  text-align: center;
+  color: white;
+  /* Text color */
+  font-size: 24px;
+  font-family: 'Rubik Glitch Pop', sans-serif;
+  /* Adjust the font size as needed */
+  margin-top: 10px;
+  /* Adjust the distance from the image container */
+}
+
+.quote {
+  text-align: center;
+  color: white;
+  /* Text color */
+  font-size: 28px;
+  max-width: 50%;
+  /* Adjust the font size as needed */
+  margin-top: 20px;
+  /* Adjust the distance from the caption */
+}
